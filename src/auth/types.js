@@ -1,0 +1,9 @@
+export const LOGIN_REQUEST = 'login_request';
+export const LOGIN_SUCCESS = 'login_success';
+export const LOGIN_FAILURE = 'login_failure';
+export const REGISTER_REQUEST = 'register_request';
+export const REGISTER_SUCCESS = 'register_success';
+export const REGISTER_FAILURE = 'register_failure';
+export const CLEAR_ERRORS = 'clear_errors';
+export const LOGOUT_USER = 'logout_user';
+export const EDIT_USER = 'edit_user';

@@ -1,0 +1,17 @@
+export const FETCH_QUESTION_REQUEST = 'fetch_question_request';
+export const FETCH_QUESTION_SUCCESS = 'fetch_question_success';
+export const FETCH_QUESTION_FAILURE = 'fetch_question_failure';
+export const FETCH_ANSWERS_REQUEST = 'fetch_answers_request';
+export const FETCH_ANSWERS_SUCCESS = 'fetch_answers_success';
+export const FETCH_ANSWERS_FAILURE = 'fetch_answers_failure';
+export const CREATE_ANSWER_REQUEST = 'create_answer_request';
+export const CREATE_ANSWER_SUCCESS = 'create_answer_success';
+export const CREATE_ANSWER_FAILURE = 'create_answer_failure';
+export const EDIT_ANSWER_REQUEST = 'edit_answer_request';
+export const EDIT_ANSWER_SUCCESS = 'edit_answer_success';
+export const EDIT_ANSWER_FAILURE = 'edit_answer_failure';
+export const DELETE_ANSWER_REQUEST = 'create_answer_request';
+export const DELETE_ANSWER_SUCCESS = 'create_answer_success';
+export const DELETE_ANSWER_FAILURE = 'create_answer_failure';
+export const ADD_ANSWER_COUNT = 'add_answer_count';
+export const REMOVE_ANSWER_COUNT = 'remove_answer_count';

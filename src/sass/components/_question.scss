@@ -1,0 +1,23 @@
+.question-footer {
+  height: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.question-header {
+  height: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  justify-content: space-between;
+}
+
+.question-body {
+  cursor: pointer;
+  transition: .1s;
+
+  &:hover {
+    background: #fcfcfc;
+  }
+}

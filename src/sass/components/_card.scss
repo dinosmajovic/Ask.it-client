@@ -1,0 +1,11 @@
+.card-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 991px) {
+  .profile-info-card {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

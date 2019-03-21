@@ -1,0 +1,36 @@
+.heart-dislike {
+  overflow: hidden;
+  text-align: center;
+
+  fill: #999;
+
+  &.disliked {
+    fill: #000;
+
+    &:hover {
+      fill: #999;
+    }
+  }
+
+  &:hover {
+    svg {
+      fill: #000;
+    }
+  }
+}
+
+.heart-icon {
+  &.liked {
+    &:hover {
+      svg {
+        fill: #e5968e;
+      }
+    }
+  }
+
+  &:hover {
+    svg {
+      fill: #c0392b;
+    }
+  }
+}
